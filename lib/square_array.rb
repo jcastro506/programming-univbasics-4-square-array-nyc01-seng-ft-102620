@@ -1,11 +1,6 @@
 
 
 def square_array (array) 
-  new_array = []
-  counter = 0 
-  while counter <= array.length-1 do 
-    new_array.push(array[counter]** 2) 
-    counter += 1 
-  end 
-  new_array
+  while array.length.times |index| do 
+    array[index]**2 
 end 
